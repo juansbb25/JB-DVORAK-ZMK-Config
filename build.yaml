@@ -22,3 +22,11 @@ include:
     shield: sofle_left
   - board: nrf52840_m2
     shield: sofle_right
+<<<<<<< HEAD
+=======
+include:
+  - board: nrf52840_m2
+    shield: sofle_left
+  - board: nrf52840_m2
+    shield: sofle_right
+>>>>>>> 5fb3728 (Initial User Config.)
