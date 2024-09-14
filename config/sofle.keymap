@@ -10,6 +10,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
+        &led_strip {
+    chain-length = <21>;
+};
     keymap {
         compatible = "zmk,keymap";
 
@@ -66,7 +69,4 @@
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
-    &led_strip {
-    chain-length = <21>;
-};
 };
