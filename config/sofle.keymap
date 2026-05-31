@@ -74,7 +74,7 @@
 // | SHIFT |  ;  |  Q  |  J   |  K   |  X   |  MUTE  |        | ExtPw |  B   |  M    |  W    |  V   |   Z   | ENTER |
 //               | LS(CTRL) | ALT  | CTRL | LOWER|  SPACE |        | SPACE | RAISE| CTRL  | ALT   | GUI  |
     bindings = <
-    &kp GRAVE &kp N1 &kp N2   &kp N3   &kp N4    &rgb_ug RGB_TOG                              &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &kp BSPC
+    &kp GRAVE &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                                       &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &kp BSPC
     &kp TAB   &kp SQT &kp COMMA &kp DOT   &kp P    &kp Y                               &kp F  &kp G     &kp C     &kp R    &kp L    &kp FSLH
     &kp ESC   &kp A   &kp O     &kp E    &kp U    &kp I                               &kp D  &kp H     &kp T     &kp N    &kp S    &kp MINUS
     &kp LSHFT &kp SEMI &kp Q   &kp J    &kp K    &kp X   &kp C_MUTE  &ext_power EP_TOG &kp B  &kp M     &kp W     &kp V    &kp Z    &kp ENTER
@@ -111,7 +111,7 @@
 // |     | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &trans
+    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_BRD &rgb_ug RGB_BRI &trans  &trans
     &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp PG_UP &trans    &trans  &kp UP      &trans  &kp DEL
     &trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp PG_DN  &trans &kp LEFT  &kp DOWN &kp RIGHT &trans
     &trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
